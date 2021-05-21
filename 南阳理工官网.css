@@ -1,0 +1,236 @@
+
+.su{
+  background-image: url(47.png);
+  width:600px;
+  width: 100%;
+  height:120px;
+}
+.su1{
+  position:absolute;
+  left:1050px;
+  top:10px;
+}
+.top{
+  /* 设置宽度高度背景颜色 */
+  height: 50px;
+  width:700px;
+  top: 0.3;/*离顶部的距离为0*/
+  position:absolute;
+  left:450px;
+  top:80px;
+  z-index: 999;
+}
+.top ul{
+  /* 清除ul标签的默认样式 */
+  width: 90%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+.top li {
+  float:left; /* 使li内容横向浮动，即横向排列  */
+  margin-right:5px;  /* 两个li之间的距离*/
+}
+
+.top li a{
+  /* 设置链接内容显示的格式*/
+  display:block; /* 把链接显示为块元素可使整个链接区域可点击 */
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* 去除下划线 */
+}
+.top li a:hover{
+  /* 鼠标选中时背景变为黑色 */
+  background-color: white;
+}
+.top ul li ul{
+  /* 设置二级菜单 */
+  width: auto;
+  background:rgb(189, 181, 181);
+  position: absolute;
+  display: none; /* 默认隐藏二级菜单的内容 */
+
+}
+.top ul li ul li{
+  /* 二级菜单li内容的显示 */
+  margin-right:0;
+  float:none;
+  text-align: center;
+}
+.top ul li:hover ul{
+  /* 鼠标选中二级菜单内容时 */
+  display: block;
+  .top{
+  width;100px;
+}
+}
+.shi1{
+  margin-top: 30px;
+  height:100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.shi11{
+  width:33.3%;
+  height:100px;
+}
+.shi12{
+  width:33.3%;
+  height:100px;
+}
+.shi13{
+  margin-top: 100px;
+  width: 33.3%;
+  height: 400px;
+  display: flex;
+  flex-flow: row;
+  justify-content:space-evenly;
+  position: relative;
+}
+.shi131{
+  margin: 20px 20px;
+  width:84px;
+  height:60px;
+}
+.shi131:hover{
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
+.shi132{
+  margin: 20px 20px;
+  width:85px;
+  height:60px;
+}
+.shi132:hover{
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
+.shi133{
+  margin: 20px 20px;
+  width:85px;
+  height:60px;
+  position: absolute;
+  top:100px;
+  right: 260px;
+}
+.shi133:hover{
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
+.shi134{
+  margin: 20px 20px;
+  width:85px;
+  height:60px;
+  position: absolute;
+  top:100px;
+  right:70px;
+}
+.shi134:hover{
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.2);
+}
+.title{
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  width: 100%;
+  position: absolute;
+  top: 980px;
+}
+.shi2{
+  margin-top: 30px;
+  height:300px;
+  display: flex;
+  justify-content:space-around;
+  position: absolute;
+  top: 1000px;
+}
+.shi21{
+  margin: 0 40px;
+  width: 25%;
+  height:50px;
+}
+.shi22{
+  margin: 0 40px;
+  width: 25%;
+  height:50px;
+
+}
+.shi23{
+  width: 25%;
+  height:50px;
+  margin: 0 40px;
+}
+.shi24{
+  width: 25%;
+
+  heigh::50px;
+  margin: 0 40px;
+}
+.shi3{
+  height: 40px;
+  width:100%;
+  background:#C4E1FF;
+  position: absolute;
+  top: 1200px;
+}
+.shi3 ul{
+  width: 90%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.shi3 li{
+  float:left;
+  margin-right:50px;
+}.shi3 li a{
+   /* 设置链接内容显示的格式*/
+   display:block; /* 把链接显示为块元素可使整个链接区域可点击 */
+   color:black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none; /* 去除下划线 */
+ }
+ .shi3 li a:hover{
+   background-color:#FFFFFF;
+ }
+ .shi3 ul li ul{
+   /* 设置二级菜单 */
+   width: auto;
+   background:rgb(189, 181, 181);
+   position: absolute;
+   display: none; /* 默认隐藏二级菜单的内容 */
+ }
+ .shi3 ul li ul li
+ {
+   /* 二级菜单li内容的显示 */
+   margin-right:0;
+   float:none;
+   text-align: center;
+ }
+.shi3 ul li:hover ul{
+  /* 鼠标选中二级菜单内容时 */
+  display: block;
+}
+.shi3{
+   width;100px;
+ }
+.shi4{
+  position: absolute;
+  top: 1200px;
+  width:100%;
+  height: 100px;
+  background:#4A4AFF;
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ning1{
+  position:absolute;
+  right:400px;
+  top:0;
+  margin-top: 10px;
+  z-index:1;
+}
+
